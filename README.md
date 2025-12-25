@@ -7,6 +7,8 @@ This project implements an end-to-end Retrieval-Augmented Generation (RAG) syste
 - Hallucination Detection using NLI with RoBERTa
 - FastAPI for serving the API
 
+- This project implements an end-to-end Retrieval-Augmented Generation (RAG) system with the following components:  - Local Knowledge Graph using spaCy and NetworkX - Entity-Aware Retrieval using Sentence Transformers and FAISS - Hallucination Detection using NLI with RoBERTa - FastAPI for serving the API
+
 ## Architecture
 
 Wikipedia Slice → Chunking → NER + Entity Linking → Local KG → Dense Embeddings → FAISS → Entity-Aware Retriever → Fusion → Flan-T5-Small → Hallucination Detector → FastAPI
