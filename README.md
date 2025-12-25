@@ -39,3 +39,6 @@ curl -X POST "http://localhost:8000/ask" -H "Content-Type: application/json" -d 
 - `rag/hallucination.py`: Hallucination Detector
 - `rag/fusion.py`: Evidence Fusion
 - `api/main.py`: FastAPI application
+
+## Sample Output:
+<img width="1402" height="914" alt="image" src="https://github.com/user-attachments/assets/5515ee6c-4fce-4d54-8b73-ac26669b07da" />
